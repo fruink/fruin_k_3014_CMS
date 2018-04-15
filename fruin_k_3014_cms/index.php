@@ -73,7 +73,7 @@
             $movies = get_single_genre($genre, $tbl, $tbl2, $tbl3, $col, $col2, $col3);
               while($row = mysqli_fetch_array($movies)){
                 //thumbnail redirects user to the selected movie's details page (details page)
-                echo "<a href=\"details.php?id={$row['movie_id']}\"><img class ='thumb' src='img/{$row['movie_cover']}' alt ='the image'></a>";
+                echo "<a href=\"details.php?id={$row['movie_id']}\"><img class ='thumb' src='img/{$row['movie_cover']}' alt =''></a>";
             }
                 echo "</section>";//closing div from genre row
         }
