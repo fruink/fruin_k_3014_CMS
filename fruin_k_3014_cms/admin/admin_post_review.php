@@ -45,7 +45,7 @@ if(isset($_POST['submit'])){
                  //form for user to post their review on selected movie below &amp; and see other reviews
 
 
-                 //blockquote is not yet functional at the moment but demonstrates how it will look on the movies details page for users/admin who are logged in (gives others a view on other reviews regarding this movie)
+                 //blockquote is not yet functional at the moment but demonstrates how it will look on the movies post review page for users/admin who are logged in (gives others a view on other reviews regarding this movie)
 
                  echo "
 
